@@ -28,9 +28,13 @@
     <Compile Include="sdlc_developer_agent\cli.py" />
     <Compile Include="tests\test_agent.py" />
     <Compile Include="tests\test_authorization.py" />
+    <Compile Include="tests\test_integration_opa.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="examples\input.project_read.json" />
+    <Content Include="examples\input.project_read.deny_cross_project.json" />
+    <Content Include="examples\input.repository_write.allow.json" />
+    <Content Include="examples\input.repository_write.deny_protected_branch.json" />
     <Content Include="pyproject.toml" />
     <Content Include="README.md" />
   </ItemGroup>

@@ -1,0 +1,6 @@
+{
+  "action": "repository.write",
+  "identity": {"agent_role": "developer", "project_id": "example-project"},
+  "resource": {"project_id": "example-project", "protected_branch": true},
+  "change": {"risk": "R1", "scope_approved": true}
+}

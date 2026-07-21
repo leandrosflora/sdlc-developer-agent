@@ -10,6 +10,7 @@ Agente `developer` do [agentic-sdlc-reference-architecture](https://github.com/l
 
 - `project.read`: permitido, restrito ao próprio `project_id`.
 - `repository.write`: permitido apenas quando `resource.protected_branch` é falso, `change.risk` está em `{R1, R2}` e `change.scope_approved` é verdadeiro.
+- `architecture.propose`: permitido, restrito ao próprio `project_id` e a `change.risk` em `{R0, R1}` — proposta apenas; escrita direta é exclusiva do papel `architecture` (`architecture.update`).
 - Sem permissão para acionar deploy ou alterar arquitetura/contratos diretamente.
 
 ## Status

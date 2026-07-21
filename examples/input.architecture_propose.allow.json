@@ -1,0 +1,6 @@
+{
+  "action": "architecture.propose",
+  "identity": {"agent_role": "developer", "project_id": "example-project"},
+  "resource": {"project_id": "example-project"},
+  "change": {"risk": "R1"}
+}
